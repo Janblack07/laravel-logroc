@@ -161,7 +161,7 @@ class VentaController extends Controller
                 return response()->json([
                     'ventasMes'=>$ventasMes
                 ]);
-
+/* xd */
     }
     public function ventaDiariaUsuario(){
         $ventas = DB::table('ventas')
